@@ -5,11 +5,8 @@ form {
     align-items: center;
 }
 
-* {
-    text-align: center;
-}
 
-body {
+.new-book {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,3 +14,4 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
