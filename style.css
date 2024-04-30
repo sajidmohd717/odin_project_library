@@ -3,6 +3,7 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 
@@ -15,3 +16,19 @@ form {
     margin-right: auto;
 }
 
+.book-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.book_display {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
